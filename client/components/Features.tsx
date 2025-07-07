@@ -134,7 +134,7 @@ export default function Features() {
 
             <div className="glass-card p-6 text-center">
               <div className="text-2xl font-bold text-yellow-400 mb-2">
-                Current Leaders
+                Market Leaders*
               </div>
               <div className="text-sm text-muted-foreground space-y-2">
                 <div>• Multi-touch attribution</div>
@@ -146,15 +146,22 @@ export default function Features() {
 
             <div className="glass-card p-6 text-center border-2 border-cosmic-primary/50">
               <div className="text-2xl font-bold gradient-text mb-2">
-                Our Platform
+                Gemini Attribution
               </div>
               <div className="text-sm text-foreground space-y-2">
                 <div>• Unified data architecture</div>
-                <div>• Hyper-predictive AI</div>
-                <div>• Real-time optimization</div>
-                <div>• Autonomous intelligence</div>
+                <div>• Patent-pending AI models</div>
+                <div>• Sub-100ms processing</div>
+                <div>• Autonomous optimization</div>
               </div>
             </div>
+          </div>
+
+          <div className="mt-8 text-center">
+            <p className="text-xs text-muted-foreground">
+              *Competitive analysis as of Q4 2024. Features and capabilities
+              subject to change.
+            </p>
           </div>
         </div>
       </div>
