@@ -102,7 +102,7 @@ export default function Hero() {
             <div className="professional-card-elevated p-8 bg-white">
               <div className="space-y-6">
                 {/* Demo Preview */}
-                <div className="aspect-video bg-gradient-to-br from-indigo-600 to-purple-700 rounded-lg flex items-center justify-center relative overflow-hidden">
+                <div className="aspect-video bg-slate-900 rounded-lg flex items-center justify-center relative overflow-hidden">
                   <div className="absolute inset-0 bg-black/20" />
                   <div className="relative z-10 text-center text-white">
                     <Play className="h-16 w-16 mx-auto mb-4 opacity-90" />
