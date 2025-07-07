@@ -290,6 +290,10 @@
     background-color: rgb(var(--background-muted));
   }
 
+  .bg-background-accent {
+    background-color: rgb(var(--background-accent));
+  }
+
   .bg-card {
     background-color: rgb(var(--card));
   }
