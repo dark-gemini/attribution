@@ -2,15 +2,6 @@ import { Linkedin, Twitter } from "lucide-react";
 
 const team = [
   {
-    name: "Rajesh Patel",
-    role: "Co-Founder & CEO",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2Fa41f8018a6c04e629f1d0c123f6b209f?format=webp&width=800",
-    bio: "Serial entrepreneur with 3 exits totaling $2.1B. Former Chief Product Officer at Salesforce. Built attribution systems serving 500M+ daily transactions.",
-    credentials:
-      "MBA Harvard • MS Computer Science, IIT Delhi • Forbes 40 Under 40",
-  },
-  {
     name: "Dr. Katherine Mitchell",
     role: "Chief Technology Officer",
     image:
@@ -44,7 +35,7 @@ const team = [
       "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2F17677002e5a343888b699443a1c4442a?format=webp&width=800",
     bio: "Privacy researcher from MIT CSAIL. Expert in differential privacy and homomorphic encryption. Former Apple Privacy Engineering lead.",
     credentials:
-      "PhD Cryptography, MIT • IAPP Fellow • 12 privacy patents • NIST contributor",
+      "PhD Cryptography, MIT • IAPP Fellow ��� 12 privacy patents • NIST contributor",
   },
   {
     name: "Michael Thompson",
@@ -63,33 +54,6 @@ const team = [
     bio: "Former Principal PM at Snowflake. Led product strategy for enterprise analytics platforms. 12 years building B2B SaaS products.",
     credentials:
       "MBA Wharton • BS Engineering, UC San Diego • Product Leader of the Year",
-  },
-  {
-    name: "James Martinez",
-    role: "VP of Sales",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2F1798d85d5eaf4df4af4b5140ceaab9e1?format=webp&width=800",
-    bio: "Former SVP Sales at HubSpot. Built enterprise sales teams from $0 to $500M ARR. Expert in SaaS go-to-market strategy.",
-    credentials:
-      "MBA Northwestern Kellogg • 15 years enterprise sales • President's Club winner",
-  },
-  {
-    name: "Dr. Priya Sharma",
-    role: "Chief Revenue Officer",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2F15f9e4422c484b1ab55cd6b312747279?format=webp&width=800",
-    bio: "Former Chief Revenue Officer at Tableau. Led global revenue operations and scaled from $100M to $1B ARR. McKinsey alum.",
-    credentials:
-      "MBA Stanford • MS Operations Research, MIT • CRO of the Year 2023",
-  },
-  {
-    name: "Marcus Williams",
-    role: "Chief Operating Officer",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2Fcc1b3124c1e3483797f0956b29c0e271?format=webp&width=800",
-    bio: "Former VP Operations at Palantir. Expert in scaling enterprise software companies. Led IPO process and post-public company operations.",
-    credentials:
-      "MBA Harvard • BS Industrial Engineering, Georgia Tech • Former Goldman Sachs",
   },
 ];
 
