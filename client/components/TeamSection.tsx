@@ -2,46 +2,52 @@ import { Linkedin, Twitter } from "lucide-react";
 
 const team = [
   {
-    name: "Riley Chen",
-    role: "Chief AI Officer",
-    image:
-      "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/riley-5ca88c?format=webp&width=800",
-    bio: "Former head of ML at Tesla Autopilot. PhD in Neural Networks from Stanford. Leading our autonomous optimization algorithms.",
-  },
-  {
-    name: "Dr. Brooke Martinez",
-    role: "Chief Data Scientist",
-    image:
-      "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/brooke-3d0095?format=webp&width=800",
-    bio: "Ex-Google Research, pioneered multi-touch attribution models. 15+ years in marketing analytics and predictive modeling.",
-  },
-  {
-    name: "Alex Thompson",
+    name: "Hiroshi Tanaka",
     role: "Co-Founder & CEO",
     image:
-      "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/alex-13f266?format=webp&width=800",
-    bio: "Serial entrepreneur with 3 exits. Former VP Engineering at TripleWhale. Built attribution systems for Fortune 500 companies.",
+      "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/riley-5ca88c?format=webp&width=800",
+    bio: "Serial entrepreneur with 3 exits totaling $2.1B. Former VP Engineering at TripleWhale. Built attribution systems serving 500M+ daily transactions.",
+    credentials: "MS Computer Science, Stanford • Forbes 30 Under 30",
   },
   {
-    name: "Arya Nakamura",
-    role: "VP of Engineering",
+    name: "Dr. Keanu Williams",
+    role: "Chief AI Officer",
+    image:
+      "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/brooke-3d0095?format=webp&width=800",
+    bio: "Former head of ML at Tesla Autopilot. PhD in Neural Networks from Stanford. 15+ patents in autonomous decision-making systems.",
+    credentials: "PhD AI/ML, Stanford • Published 40+ papers • Tesla AI Lead",
+  },
+  {
+    name: "Elena Volkov",
+    role: "Chief Technology Officer",
+    image:
+      "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/alex-13f266?format=webp&width=800",
+    bio: "Ex-Google Senior Staff Engineer. Architected systems processing 1B+ attribution events daily. Former Meta Reality Labs AI lead.",
+    credentials: "MS Software Engineering, MIT • 12 years at Google",
+  },
+  {
+    name: "Dr. Priya Sharma",
+    role: "Chief Data Scientist",
     image:
       "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/arya-ed2797?format=webp&width=800",
-    bio: "Infrastructure expert who scaled Stripe's real-time analytics. Leading our unified data platform architecture.",
+    bio: "Pioneered multi-touch attribution models at Google Research. 20+ years in marketing analytics. Former Adobe Analytics VP.",
+    credentials: "PhD Statistics, UC Berkeley • 25+ research publications",
   },
   {
-    name: "Taylor Rodriguez",
-    role: "Head of Product",
+    name: "Marcus Johnson",
+    role: "VP of Engineering",
     image:
       "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/taylor-f826af?format=webp&width=800",
-    bio: "Former Principal PM at Microsoft Azure. Specialized in enterprise analytics platforms and developer experience.",
+    bio: "Infrastructure expert who scaled Stripe's real-time analytics from 10M to 10B+ transactions. Former Principal Engineer at Databricks.",
+    credentials: "MS Distributed Systems, CMU • Kubernetes core contributor",
   },
   {
-    name: "Dr. Amy Foster",
-    role: "Privacy & Ethics Lead",
+    name: "Dr. Sarah Chen",
+    role: "Chief Privacy Officer",
     image:
       "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/amy-31dad6?format=webp&width=800",
-    bio: "Privacy researcher from MIT. Expert in differential privacy and secure computation. Ensuring ethical AI practices.",
+    bio: "Privacy researcher from MIT CSAIL. Expert in differential privacy and homomorphic encryption. Former Apple Privacy Engineering lead.",
+    credentials: "PhD Cryptography, MIT • IAPP Fellow • 8 privacy patents",
   },
 ];
 
