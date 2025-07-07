@@ -32,9 +32,9 @@
       0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 
     /* Interactive elements */
-    --primary: 99 102 241;
+    --primary: 15 23 42;
     --primary-foreground: 255 255 255;
-    --primary-hover: 79 70 229;
+    --primary-hover: 30 41 59;
 
     --secondary: 241 245 249;
     --secondary-foreground: 15 23 42;
