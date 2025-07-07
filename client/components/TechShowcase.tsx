@@ -1,0 +1,261 @@
+import { Code, Database, Brain, Zap, Shield, BarChart3 } from "lucide-react";
+
+const techStack = [
+  {
+    category: "Data Architecture",
+    icon: Database,
+    technologies: [
+      "Unified Customer Data Platform",
+      "Real-time Stream Processing",
+      "Cross-Device Identity Resolution",
+      "Deterministic & Probabilistic Matching",
+    ],
+    color: "from-blue-500 to-cyan-500",
+  },
+  {
+    category: "AI & Machine Learning",
+    icon: Brain,
+    technologies: [
+      "Deep Learning for CLTV Prediction",
+      "Reinforcement Learning Optimization",
+      "Natural Language Processing",
+      "Computer Vision for Creative Analysis",
+    ],
+    color: "from-purple-500 to-pink-500",
+  },
+  {
+    category: "Attribution Models",
+    icon: BarChart3,
+    technologies: [
+      "Shapley Value Attribution",
+      "Markov Chain Analysis",
+      "Data-Driven Attribution",
+      "Incrementality Testing",
+    ],
+    color: "from-green-500 to-emerald-500",
+  },
+  {
+    category: "Privacy & Security",
+    icon: Shield,
+    technologies: [
+      "Differential Privacy",
+      "Homomorphic Encryption",
+      "Secure Multi-Party Computation",
+      "Zero-Knowledge Proofs",
+    ],
+    color: "from-red-500 to-orange-500",
+  },
+];
+
+const metrics = [
+  {
+    icon: Zap,
+    value: "<100ms",
+    label: "Real-time Processing",
+    description: "Sub-second attribution updates",
+  },
+  {
+    icon: Database,
+    value: "99.9%",
+    label: "Data Accuracy",
+    description: "Verified attribution precision",
+  },
+  {
+    icon: Brain,
+    value: "95%",
+    label: "Prediction Accuracy",
+    description: "CLTV and churn forecasting",
+  },
+  {
+    icon: Shield,
+    value: "100%",
+    label: "Privacy Compliant",
+    description: "GDPR, CCPA, LGPD ready",
+  },
+];
+
+export default function TechShowcase() {
+  return (
+    <section className="py-24 relative overflow-hidden">
+      {/* Background elements */}
+      <div className="absolute inset-0 bg-neural-pattern opacity-15" />
+
+      <div className="container mx-auto px-4 relative z-10">
+        {/* Header */}
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center gap-2 glass-card px-4 py-2 mb-6">
+            <Code className="h-4 w-4 text-cosmic-primary" />
+            <span className="text-sm font-medium">Technology Stack</span>
+          </div>
+
+          <h2 className="text-4xl md:text-6xl font-bold mb-6">
+            Built on <span className="gradient-text">Cutting-Edge</span>
+            <br />
+            Attribution Science
+          </h2>
+
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Our platform leverages the latest advances in machine learning,
+            differential privacy, and real-time data processing to deliver
+            unmatched attribution intelligence.
+          </p>
+        </div>
+
+        {/* Technology Stack Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+          {techStack.map((category, index) => (
+            <div
+              key={index}
+              className="glass-card p-8 group hover:scale-105 transition-all duration-300 animate-slide-in"
+              style={{ animationDelay: `${index * 150}ms` }}
+            >
+              {/* Category Header */}
+              <div className="flex items-center gap-4 mb-6">
+                <div
+                  className={`p-3 rounded-xl bg-gradient-to-r ${category.color} w-fit`}
+                >
+                  <category.icon className="h-6 w-6 text-white" />
+                </div>
+                <h3 className="text-xl font-bold group-hover:gradient-text transition-all duration-300">
+                  {category.category}
+                </h3>
+              </div>
+
+              {/* Technologies List */}
+              <div className="space-y-3">
+                {category.technologies.map((tech, techIndex) => (
+                  <div
+                    key={techIndex}
+                    className="flex items-center gap-3 p-3 rounded-lg hover:bg-white/5 transition-colors"
+                  >
+                    <div className="w-2 h-2 rounded-full bg-cosmic-primary" />
+                    <span className="text-sm font-medium">{tech}</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Hover effect */}
+              <div className="mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-cosmic-primary to-transparent" />
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Performance Metrics */}
+        <div className="text-center mb-12">
+          <h3 className="text-3xl md:text-4xl font-bold mb-8">
+            Platform <span className="gradient-text">Performance</span>
+          </h3>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+          {metrics.map((metric, index) => (
+            <div
+              key={index}
+              className="glass-card p-6 text-center group hover:scale-105 transition-all duration-300 animate-slide-in"
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              <div className="flex justify-center mb-4">
+                <div className="p-3 rounded-xl bg-gradient-to-r from-cosmic-primary to-cosmic-secondary w-fit">
+                  <metric.icon className="h-6 w-6 text-white" />
+                </div>
+              </div>
+
+              <div className="text-3xl font-bold gradient-text mb-2">
+                {metric.value}
+              </div>
+
+              <div className="font-semibold mb-2">{metric.label}</div>
+
+              <div className="text-sm text-muted-foreground">
+                {metric.description}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Architecture Diagram */}
+        <div className="glass-card p-8 mb-12">
+          <h3 className="text-2xl font-bold text-center mb-8">
+            <span className="gradient-text">Unified Intelligence</span>{" "}
+            Architecture
+          </h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div className="space-y-4">
+              <div className="p-4 rounded-xl bg-gradient-to-r from-blue-500/20 to-cyan-500/20">
+                <Database className="h-8 w-8 mx-auto text-cyan-400 mb-2" />
+                <div className="font-semibold">Data Ingestion</div>
+                <div className="text-sm text-muted-foreground">
+                  Real-time collection from all sources
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <div className="p-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20">
+                <Brain className="h-8 w-8 mx-auto text-pink-400 mb-2" />
+                <div className="font-semibold">AI Processing</div>
+                <div className="text-sm text-muted-foreground">
+                  Machine learning analysis & prediction
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <div className="p-4 rounded-xl bg-gradient-to-r from-green-500/20 to-emerald-500/20">
+                <Zap className="h-8 w-8 mx-auto text-emerald-400 mb-2" />
+                <div className="font-semibold">Autonomous Action</div>
+                <div className="text-sm text-muted-foreground">
+                  Real-time optimization & execution
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex justify-center mt-8">
+            <div className="flex items-center gap-4">
+              <div className="w-16 h-px bg-gradient-to-r from-cyan-400 to-purple-400" />
+              <Zap className="h-4 w-4 text-cosmic-primary" />
+              <div className="w-16 h-px bg-gradient-to-r from-purple-400 to-emerald-400" />
+            </div>
+          </div>
+        </div>
+
+        {/* API & Integration */}
+        <div className="text-center">
+          <h3 className="text-2xl font-bold mb-6">
+            Developer-First <span className="gradient-text">Integration</span>
+          </h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <div className="glass-card p-6">
+              <Code className="h-8 w-8 mx-auto text-cosmic-primary mb-4" />
+              <div className="font-semibold mb-2">RESTful APIs</div>
+              <div className="text-sm text-muted-foreground">
+                Complete programmatic access to all platform features
+              </div>
+            </div>
+
+            <div className="glass-card p-6">
+              <Database className="h-8 w-8 mx-auto text-cosmic-secondary mb-4" />
+              <div className="font-semibold mb-2">SDK Libraries</div>
+              <div className="text-sm text-muted-foreground">
+                Python, JavaScript, and R libraries for data scientists
+              </div>
+            </div>
+
+            <div className="glass-card p-6">
+              <Zap className="h-8 w-8 mx-auto text-cosmic-accent mb-4" />
+              <div className="font-semibold mb-2">Real-time Webhooks</div>
+              <div className="text-sm text-muted-foreground">
+                Instant notifications for attribution insights
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
