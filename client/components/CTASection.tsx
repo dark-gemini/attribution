@@ -34,8 +34,8 @@ export default function CTASection() {
             </h2>
 
             <p className="text-xl text-muted-foreground mb-8">
-              Join leading companies already using our platform to achieve
-              20-40% ROAS improvements and autonomous marketing optimization.
+              Join 200+ enterprise customers already using our platform. Beta
+              launched Q2 2024, GA available Q1 2025.
             </p>
           </div>
 
