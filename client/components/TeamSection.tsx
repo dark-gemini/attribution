@@ -20,7 +20,7 @@ const team = [
       "PhD Computer Science, Stanford • 15 years at Microsoft • ACM Fellow",
   },
   {
-    name: "Dr. Maria Kowalski",
+    name: "Dr. Elena Kowalski",
     role: "Chief AI Officer",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2Fa3b0541ca27e429c8523cdb6f49635b3?format=webp&width=800",
@@ -38,7 +38,7 @@ const team = [
       "PhD Statistics, UC Berkeley • 35+ research publications • Google Brain alum",
   },
   {
-    name: "Dr. Jennifer Park",
+    name: "Dr. Yuki Tanaka",
     role: "Chief Privacy Officer",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2F17677002e5a343888b699443a1c4442a?format=webp&width=800",
@@ -65,7 +65,7 @@ const team = [
       "MBA Wharton • BS Engineering, UC San Diego • Product Leader of the Year",
   },
   {
-    name: "David Kim",
+    name: "James Martinez",
     role: "VP of Sales",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2F1798d85d5eaf4df4af4b5140ceaab9e1?format=webp&width=800",
@@ -74,7 +74,7 @@ const team = [
       "MBA Northwestern Kellogg • 15 years enterprise sales • President's Club winner",
   },
   {
-    name: "Dr. Anita Gupta",
+    name: "Dr. Priya Sharma",
     role: "Chief Revenue Officer",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2F15f9e4422c484b1ab55cd6b312747279?format=webp&width=800",
