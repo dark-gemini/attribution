@@ -265,7 +265,7 @@
   }
 
   .metric-number {
-    @apply text-3xl lg:text-4xl font-bold text-gradient mb-2;
+    @apply text-3xl lg:text-4xl font-bold text-slate-900 mb-2;
   }
 
   .metric-label {
