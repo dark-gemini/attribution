@@ -136,8 +136,8 @@ export default function CTASection() {
                 <div className="w-8 h-8 rounded-full bg-gradient-to-r from-cosmic-accent to-cosmic-primary border-2 border-background" />
               </div>
               <div className="text-sm">
-                <span className="font-semibold">2,000+</span> data scientists
-                already building with our platform
+                <span className="font-semibold">200+</span> enterprise customers
+                in beta program since Q2 2024
               </div>
             </div>
           </div>
