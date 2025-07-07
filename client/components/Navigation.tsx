@@ -21,7 +21,9 @@ export default function Navigation() {
             <div className="p-2 rounded-lg cosmic-gradient">
               <Brain className="h-5 w-5 text-white" />
             </div>
-            <div className="text-lg font-bold gradient-text">AttributeAI</div>
+            <div className="text-lg font-bold gradient-text">
+              Gemini Attribution
+            </div>
           </div>
 
           {/* Desktop Navigation */}
