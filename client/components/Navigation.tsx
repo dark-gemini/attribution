@@ -9,6 +9,7 @@ export default function Navigation() {
     { name: "Platform", href: "#platform" },
     { name: "Technology", href: "#technology" },
     { name: "Team", href: "#team" },
+    { name: "Investors", href: "#investors" },
     { name: "Resources", href: "#resources" },
   ];
 
