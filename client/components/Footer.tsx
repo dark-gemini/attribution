@@ -28,12 +28,15 @@ export default function Footer() {
               <div className="p-2 rounded-lg cosmic-gradient">
                 <Brain className="h-6 w-6 text-white" />
               </div>
-              <div className="text-xl font-bold gradient-text">Gemini Attribution Labs</div>
+              <div className="text-xl font-bold gradient-text">
+                Gemini Attribution Labs
+              </div>
             </div>
 
             <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-              Beyond attribution. Autonomous intelligence for business and science.
-              The next-generation platform that outperforms traditional solutions.
+              Beyond attribution. Autonomous intelligence for business and
+              science. The next-generation platform that outperforms traditional
+              solutions.
             </p>
 
             {/* Company Details */}
@@ -53,13 +56,22 @@ export default function Footer() {
             </div>
 
             <div className="flex gap-3">
-              <a href="https://twitter.com/geminiattribution" className="p-2 rounded-lg glass-card hover:bg-white/10 transition-colors">
+              <a
+                href="https://twitter.com/geminiattribution"
+                className="p-2 rounded-lg glass-card hover:bg-white/10 transition-colors"
+              >
                 <Twitter className="h-4 w-4 text-cosmic-accent" />
               </a>
-              <a href="https://linkedin.com/company/geminiattribution" className="p-2 rounded-lg glass-card hover:bg-white/10 transition-colors">
+              <a
+                href="https://linkedin.com/company/geminiattribution"
+                className="p-2 rounded-lg glass-card hover:bg-white/10 transition-colors"
+              >
                 <Linkedin className="h-4 w-4 text-cosmic-secondary" />
               </a>
-              <a href="https://github.com/geminiattribution" className="p-2 rounded-lg glass-card hover:bg-white/10 transition-colors">
+              <a
+                href="https://github.com/geminiattribution"
+                className="p-2 rounded-lg glass-card hover:bg-white/10 transition-colors"
+              >
                 <Github className="h-4 w-4 text-cosmic-primary" />
               </a>
             </div>
@@ -72,12 +84,54 @@ export default function Footer() {
               Platform
             </h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li><a href="/attribution" className="hover:text-foreground transition-colors">Attribution Intelligence</a></li>
-              <li><a href="/predictive" className="hover:text-foreground transition-colors">Predictive Analytics</a></li>
-              <li><a href="/optimization" className="hover:text-foreground transition-colors">Real-time Optimization</a></li>
-              <li><a href="/privacy" className="hover:text-foreground transition-colors">Privacy Controls</a></li>
-              <li><a href="/api" className="hover:text-foreground transition-colors">API & SDKs</a></li>
-              <li><a href="/integrations" className="hover:text-foreground transition-colors">Integrations</a></li>
+              <li>
+                <a
+                  href="/attribution"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Attribution Intelligence
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/predictive"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Predictive Analytics
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/optimization"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Real-time Optimization
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/privacy"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Privacy Controls
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/api"
+                  className="hover:text-foreground transition-colors"
+                >
+                  API & SDKs
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/integrations"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Integrations
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -85,12 +139,54 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">AI/ML Solutions</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li><a href="/llm" className="hover:text-foreground transition-colors">LLM Attribution</a></li>
-              <li><a href="/nlp" className="hover:text-foreground transition-colors">NLP Analytics</a></li>
-              <li><a href="/computer-vision" className="hover:text-foreground transition-colors">Computer Vision</a></li>
-              <li><a href="/deep-learning" className="hover:text-foreground transition-colors">Deep Learning Models</a></li>
-              <li><a href="/reinforcement" className="hover:text-foreground transition-colors">Reinforcement Learning</a></li>
-              <li><a href="/neural-networks" className="hover:text-foreground transition-colors">Neural Attribution</a></li>
+              <li>
+                <a
+                  href="/llm"
+                  className="hover:text-foreground transition-colors"
+                >
+                  LLM Attribution
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/nlp"
+                  className="hover:text-foreground transition-colors"
+                >
+                  NLP Analytics
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/computer-vision"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Computer Vision
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/deep-learning"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Deep Learning Models
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/reinforcement"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Reinforcement Learning
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/neural-networks"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Neural Attribution
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -98,12 +194,54 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Resources</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li><a href="/docs" className="hover:text-foreground transition-colors">Documentation</a></li>
-              <li><a href="/research" className="hover:text-foreground transition-colors">Research Papers</a></li>
-              <li><a href="/case-studies" className="hover:text-foreground transition-colors">Case Studies</a></li>
-              <li><a href="/blog" className="hover:text-foreground transition-colors">Technical Blog</a></li>
-              <li><a href="/whitepapers" className="hover:text-foreground transition-colors">Whitepapers</a></li>
-              <li><a href="/webinars" className="hover:text-foreground transition-colors">Webinars</a></li>
+              <li>
+                <a
+                  href="/docs"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/research"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Research Papers
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/case-studies"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Case Studies
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/blog"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Technical Blog
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/whitepapers"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Whitepapers
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/webinars"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Webinars
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -111,12 +249,54 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li><a href="/about" className="hover:text-foreground transition-colors">About Us</a></li>
-              <li><a href="/careers" className="hover:text-foreground transition-colors">Careers</a></li>
-              <li><a href="/press" className="hover:text-foreground transition-colors">Press Kit</a></li>
-              <li><a href="/investors" className="hover:text-foreground transition-colors">Investors</a></li>
-              <li><a href="/partners" className="hover:text-foreground transition-colors">Partners</a></li>
-              <li><a href="/contact" className="hover:text-foreground transition-colors">Contact</a></li>
+              <li>
+                <a
+                  href="/about"
+                  className="hover:text-foreground transition-colors"
+                >
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/careers"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Careers
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/press"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Press Kit
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/investors"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Investors
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/partners"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Partners
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/contact"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -191,7 +371,9 @@ export default function Footer() {
               </div>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Certifications & Compliance</h3>
+              <h3 className="font-semibold mb-4">
+                Certifications & Compliance
+              </h3>
               <div className="space-y-2 text-sm text-muted-foreground">
                 <div>• SOC 2 Type II (2024)</div>
                 <div>• ISO 27001:2022 Certified</div>
@@ -208,7 +390,7 @@ export default function Footer() {
                   <span>24/7/365 Enterprise Support</span>
                 </div>
                 <div>• 99.9% Uptime SLA</div>
-                <div>• <15min incident response</div>
+                <div>• &lt;15min incident response</div>
                 <div>• Dedicated CSM for Enterprise</div>
                 <div>• Global support coverage</div>
               </div>
@@ -219,17 +401,45 @@ export default function Footer() {
         {/* Legal & Bottom */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <div className="text-sm text-muted-foreground">
-            <div>© 2024 Gemini Attribution Labs, Inc. All rights reserved.</div>
-            <div className="mt-1">Registered in Delaware, USA. Licensed in CA, NY, UK, SG.</div>
+            <div>
+              © 2024 Gemini Attribution Labs, Inc. All rights reserved.
+            </div>
+            <div className="mt-1">
+              Registered in Delaware, USA. Licensed in CA, NY, UK, SG.
+            </div>
           </div>
 
           <div className="flex flex-wrap gap-6 text-sm text-muted-foreground">
-            <a href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</a>
-            <a href="/terms" className="hover:text-foreground transition-colors">Terms of Service</a>
-            <a href="/security" className="hover:text-foreground transition-colors">Security</a>
-            <a href="/dpa" className="hover:text-foreground transition-colors">DPA</a>
-            <a href="/sla" className="hover:text-foreground transition-colors">SLA</a>
-            <a href="/accessibility" className="hover:text-foreground transition-colors">Accessibility</a>
+            <a
+              href="/privacy"
+              className="hover:text-foreground transition-colors"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="/terms"
+              className="hover:text-foreground transition-colors"
+            >
+              Terms of Service
+            </a>
+            <a
+              href="/security"
+              className="hover:text-foreground transition-colors"
+            >
+              Security
+            </a>
+            <a href="/dpa" className="hover:text-foreground transition-colors">
+              DPA
+            </a>
+            <a href="/sla" className="hover:text-foreground transition-colors">
+              SLA
+            </a>
+            <a
+              href="/accessibility"
+              className="hover:text-foreground transition-colors"
+            >
+              Accessibility
+            </a>
           </div>
         </div>
 
@@ -237,24 +447,32 @@ export default function Footer() {
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <div className="inline-flex items-center gap-2 glass-card px-4 py-2">
             <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-            <span className="text-xs text-muted-foreground">All systems operational • 99.97% uptime YTD</span>
+            <span className="text-xs text-muted-foreground">
+              All systems operational • 99.97% uptime YTD
+            </span>
           </div>
           <div className="inline-flex items-center gap-2 glass-card px-4 py-2">
             <Shield className="h-3 w-3 text-cosmic-primary" />
-            <span className="text-xs text-muted-foreground">Enterprise Security • Zero breaches</span>
+            <span className="text-xs text-muted-foreground">
+              Enterprise Security • Zero breaches
+            </span>
           </div>
           <div className="inline-flex items-center gap-2 glass-card px-4 py-2">
             <Award className="h-3 w-3 text-cosmic-secondary" />
-            <span className="text-xs text-muted-foreground">Best Attribution Platform 2024</span>
+            <span className="text-xs text-muted-foreground">
+              Best Attribution Platform 2024
+            </span>
           </div>
         </div>
 
         {/* Disclaimer */}
         <div className="mt-8 text-center">
           <p className="text-xs text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Patent Pending: Systems and methods for autonomous attribution intelligence using federated learning and differential privacy (US App. 63/123,456).
-            This website and platform are protected by applicable patents and patent applications.
-            Third-party trademarks mentioned are the property of their respective owners.
+            Patent Pending: Systems and methods for autonomous attribution
+            intelligence using federated learning and differential privacy (US
+            App. 63/123,456). This website and platform are protected by
+            applicable patents and patent applications. Third-party trademarks
+            mentioned are the property of their respective owners.
           </p>
         </div>
       </div>
