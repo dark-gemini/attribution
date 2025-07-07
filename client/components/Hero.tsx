@@ -28,7 +28,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 glass-card px-4 py-2 mb-6">
             <Zap className="h-4 w-4 text-cosmic-primary" />
             <span className="text-sm font-medium">
-              Attribution Intelligence Platform
+              Series A • $8M Committed • Now Raising $15M
             </span>
           </div>
 
