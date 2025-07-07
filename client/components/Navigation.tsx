@@ -1,39 +1,39 @@
 import { useState } from "react";
 import { Button } from "./ui/button";
-import { Brain, Menu, X, ArrowRight } from "lucide-react";
+import { TrendingUp, Menu, X, ArrowRight, Phone } from "lucide-react";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
     { name: "Platform", href: "#platform" },
-    { name: "Technology", href: "#technology" },
-    { name: "Team", href: "#team" },
+    { name: "Solutions", href: "#solutions" },
+    { name: "Customers", href: "#customers" },
+    { name: "Company", href: "#company" },
     { name: "Investors", href: "#investors" },
-    { name: "Resources", href: "#resources" },
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 glass-card border-b border-white/10">
-      <div className="container mx-auto px-4">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-border shadow-sm">
+      <div className="container mx-auto container-padding">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="p-2 rounded-lg cosmic-gradient">
-              <Brain className="h-5 w-5 text-white" />
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 brand-gradient rounded-lg flex items-center justify-center">
+              <TrendingUp className="h-5 w-5 text-white" />
             </div>
-            <div className="text-lg font-bold gradient-text">
+            <div className="text-xl font-bold text-text-heading">
               Gemini Attribution
             </div>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-8">
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm font-medium hover:text-cosmic-primary transition-colors"
+                className="text-sm font-medium text-text-body hover:text-text-heading transition-colors focus-ring rounded-md px-2 py-1"
               >
                 {item.name}
               </a>
@@ -41,63 +41,55 @@ export default function Navigation() {
           </div>
 
           {/* Desktop CTA */}
-          <div className="hidden md:flex items-center gap-4">
-            <Button
-              variant="ghost"
-              size="sm"
-              className="text-muted-foreground hover:text-foreground"
-            >
-              Sign In
+          <div className="hidden lg:flex items-center gap-3">
+            <Button className="btn-secondary text-sm">
+              <Phone className="h-4 w-4 mr-2" />
+              Book Demo
             </Button>
-            <Button
-              size="sm"
-              className="cosmic-gradient text-white hover:opacity-90 transition-opacity"
-            >
+            <Button className="btn-primary text-sm">
               Start Free Trial
-              <ArrowRight className="ml-1 h-3 w-3" />
+              <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 rounded-lg glass-card"
+            className="lg:hidden p-2 rounded-lg hover:bg-background-muted transition-colors focus-ring"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            {isOpen ? (
+              <X className="h-5 w-5 text-text-heading" />
+            ) : (
+              <Menu className="h-5 w-5 text-text-heading" />
+            )}
           </button>
         </div>
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden py-4 border-t border-white/10">
-            <div className="space-y-4">
+          <div className="lg:hidden py-4 border-t border-border bg-white">
+            <div className="space-y-1">
               {navItems.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="block text-sm font-medium hover:text-cosmic-primary transition-colors py-2"
+                  className="block px-4 py-3 text-sm font-medium text-text-body hover:text-text-heading hover:bg-background-muted rounded-lg transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
                 </a>
               ))}
+            </div>
 
-              <div className="pt-4 space-y-3 border-t border-white/10">
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="w-full text-muted-foreground hover:text-foreground"
-                >
-                  Sign In
-                </Button>
-                <Button
-                  size="sm"
-                  className="w-full cosmic-gradient text-white hover:opacity-90 transition-opacity"
-                >
-                  Start Free Trial
-                  <ArrowRight className="ml-1 h-3 w-3" />
-                </Button>
-              </div>
+            <div className="mt-6 pt-6 border-t border-border space-y-3">
+              <Button className="btn-secondary w-full">
+                <Phone className="h-4 w-4 mr-2" />
+                Book Demo
+              </Button>
+              <Button className="btn-primary w-full">
+                Start Free Trial
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
             </div>
           </div>
         )}
