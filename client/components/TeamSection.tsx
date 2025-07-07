@@ -105,9 +105,15 @@ export default function TeamSection() {
                   {member.role}
                 </div>
 
-                <p className="text-sm text-muted-foreground leading-relaxed mb-6">
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
                   {member.bio}
                 </p>
+
+                {member.credentials && (
+                  <div className="text-xs text-cosmic-accent/80 mb-6 px-3 py-2 glass-card rounded-lg">
+                    {member.credentials}
+                  </div>
+                )}
 
                 {/* Social Links */}
                 <div className="flex justify-center gap-3">
