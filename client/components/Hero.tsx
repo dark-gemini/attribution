@@ -99,7 +99,7 @@ export default function Hero() {
 
           {/* Right Column - Product Demo */}
           <div className="slide-up">
-            <div className="professional-card-elevated p-8 bg-gradient-to-br from-white to-indigo-50/50">
+            <div className="professional-card-elevated p-8 bg-white">
               <div className="space-y-6">
                 {/* Demo Preview */}
                 <div className="aspect-video bg-gradient-to-br from-indigo-600 to-purple-700 rounded-lg flex items-center justify-center relative overflow-hidden">
