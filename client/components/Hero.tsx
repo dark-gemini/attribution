@@ -1,143 +1,190 @@
 import { Button } from "./ui/button";
-import { ArrowRight, Zap, Brain, Target } from "lucide-react";
+import {
+  ArrowRight,
+  Play,
+  CheckCircle,
+  TrendingUp,
+  Users,
+  Award,
+} from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background */}
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage:
-            "url('https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/vibrant-cosmic-nebula-239c58?format=webp&width=800')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        <div className="absolute inset-0 bg-black/70" />
-      </div>
-
-      {/* Neural network pattern overlay */}
-      <div className="absolute inset-0 bg-neural-pattern opacity-30" />
+    <section className="relative bg-background section-padding overflow-hidden">
+      {/* Background Elements */}
+      <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-blue-50 opacity-60" />
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-indigo-100/20 to-transparent" />
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center">
-        <div className="max-w-5xl mx-auto space-y-8">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 glass-card px-4 py-2 mb-6">
-            <Zap className="h-4 w-4 text-cosmic-primary" />
-            <span className="text-sm font-medium">
-              Series A • $8M Committed • Now Raising $15M
-            </span>
-          </div>
-
-          {/* Main headline */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight">
-            Beyond <span className="gradient-text">Attribution</span>
-            <br />
-            <span className="text-3xl md:text-5xl lg:text-6xl font-light">
-              Autonomous Intelligence for{" "}
-              <span className="gradient-text">Business & Science</span>
-            </span>
-          </h1>
-
-          {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Transcend traditional attribution with our next-generation
-            framework. Unified data architecture, hyper-predictive AI, and
-            autonomous optimization that outperforms Hyros and TripleWhale.
-          </p>
-
-          {/* Feature highlights */}
-          <div className="flex flex-wrap justify-center gap-6 py-6">
-            <div className="flex items-center gap-2 glass-card px-4 py-2">
-              <Brain className="h-5 w-5 text-cosmic-accent" />
-              <span className="text-sm font-medium">
-                Real-time AI Optimization
+      <div className="relative z-10 container mx-auto container-padding">
+        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
+          {/* Left Column - Main Content */}
+          <div className="space-y-8 fade-in">
+            {/* Trust Badge */}
+            <div className="inline-flex items-center gap-2 trust-badge">
+              <Award className="h-4 w-4 text-indigo-600" />
+              <span className="font-medium">
+                Series A • $8M Committed • Sequoia Capital Lead
               </span>
             </div>
-            <div className="flex items-center gap-2 glass-card px-4 py-2">
-              <Target className="h-5 w-5 text-cosmic-secondary" />
-              <span className="text-sm font-medium">
-                20-40% ROAS Improvement
-              </span>
+
+            {/* Crystal Clear Value Proposition */}
+            <div className="space-y-6">
+              <h1 className="heading-xl">
+                Marketing Attribution
+                <span className="text-gradient block">That Actually Works</span>
+              </h1>
+
+              <p className="body-lg max-w-xl">
+                The first attribution platform that uses AI to show you exactly
+                which marketing channels drive real revenue.
+                <strong className="text-text-heading">
+                  {" "}
+                  Get 40% better ROAS in 30 days.
+                </strong>
+              </p>
             </div>
-            <div className="flex items-center gap-2 glass-card px-4 py-2">
-              <Zap className="h-5 w-5 text-cosmic-primary" />
-              <span className="text-sm font-medium">Unified Data Platform</span>
+
+            {/* Key Differentiators */}
+            <div className="space-y-3">
+              <div className="flex items-center gap-3">
+                <CheckCircle className="h-5 w-5 text-green-600" />
+                <span className="body-md">
+                  Real-time attribution across all channels
+                </span>
+              </div>
+              <div className="flex items-center gap-3">
+                <CheckCircle className="h-5 w-5 text-green-600" />
+                <span className="body-md">
+                  AI-powered optimization recommendations
+                </span>
+              </div>
+              <div className="flex items-center gap-3">
+                <CheckCircle className="h-5 w-5 text-green-600" />
+                <span className="body-md">
+                  Privacy-compliant data collection
+                </span>
+              </div>
+            </div>
+
+            {/* Strong CTAs */}
+            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <Button className="btn-primary inline-flex items-center gap-2">
+                Get Free Demo
+                <ArrowRight className="h-4 w-4" />
+              </Button>
+              <Button className="btn-secondary inline-flex items-center gap-2">
+                <Play className="h-4 w-4" />
+                Watch 2-min Overview
+              </Button>
+            </div>
+
+            {/* Social Proof */}
+            <div className="flex items-center gap-6 pt-6 border-t border-border">
+              <div className="text-center">
+                <div className="text-2xl font-bold text-text-heading">200+</div>
+                <div className="text-subtle">Enterprise Customers</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-text-heading">
+                  $50M+
+                </div>
+                <div className="text-subtle">Ad Spend Optimized</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-text-heading">40%</div>
+                <div className="text-subtle">Avg ROAS Improvement</div>
+              </div>
             </div>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <Button
-              size="lg"
-              className="cosmic-gradient text-white hover:opacity-90 transition-opacity px-8 py-4 text-lg neural-glow"
-            >
-              Start Your Intelligence Journey
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="glass-card border-white/20 hover:bg-white/10 px-8 py-4 text-lg"
-            >
-              View Technology Demo
-            </Button>
-          </div>
+          {/* Right Column - Product Demo */}
+          <div className="slide-up">
+            <div className="professional-card-elevated p-8 bg-gradient-to-br from-white to-indigo-50/50">
+              <div className="space-y-6">
+                {/* Demo Preview */}
+                <div className="aspect-video bg-gradient-to-br from-indigo-600 to-purple-700 rounded-lg flex items-center justify-center relative overflow-hidden">
+                  <div className="absolute inset-0 bg-black/20" />
+                  <div className="relative z-10 text-center text-white">
+                    <Play className="h-16 w-16 mx-auto mb-4 opacity-90" />
+                    <p className="text-lg font-semibold">Live Product Demo</p>
+                    <p className="text-sm opacity-90">
+                      See attribution in action
+                    </p>
+                  </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 max-w-3xl mx-auto">
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold gradient-text">
-                20-40%*
-              </div>
-              <div className="text-sm text-muted-foreground mt-1">
-                ROAS Increase
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold gradient-text">
-                &lt;100ms
-              </div>
-              <div className="text-sm text-muted-foreground mt-1">
-                Processing Time
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold gradient-text">
-                15-30%*
-              </div>
-              <div className="text-sm text-muted-foreground mt-1">
-                CAC Reduction
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold gradient-text">
-                99.97%
-              </div>
-              <div className="text-sm text-muted-foreground mt-1">
-                Uptime SLA
-              </div>
-            </div>
-          </div>
+                  {/* Floating metrics */}
+                  <div className="absolute top-4 left-4 bg-white/90 backdrop-blur rounded-lg p-3 text-xs">
+                    <div className="flex items-center gap-2">
+                      <TrendingUp className="h-4 w-4 text-green-600" />
+                      <span className="font-semibold text-gray-900">
+                        ROAS +42%
+                      </span>
+                    </div>
+                  </div>
 
-          {/* Legal disclaimer */}
-          <div className="pt-8 text-center">
-            <p className="text-xs text-muted-foreground max-w-2xl mx-auto">
-              *Results based on controlled studies with enterprise clients Q3-Q4
-              2024. Individual results may vary. Patent pending attribution
-              algorithms.
-            </p>
+                  <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur rounded-lg p-3 text-xs">
+                    <div className="flex items-center gap-2">
+                      <Users className="h-4 w-4 text-blue-600" />
+                      <span className="font-semibold text-gray-900">
+                        Real-time Data
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Key Metrics */}
+                <div className="grid grid-cols-3 gap-4">
+                  <div className="metric-card">
+                    <div className="metric-number">23</div>
+                    <div className="metric-label">Patents</div>
+                  </div>
+                  <div className="metric-card">
+                    <div className="metric-number">99.9%</div>
+                    <div className="metric-label">Uptime</div>
+                  </div>
+                  <div className="metric-card">
+                    <div className="metric-number">&lt;100ms</div>
+                    <div className="metric-label">Response</div>
+                  </div>
+                </div>
+
+                {/* Customer Quote */}
+                <div className="bg-indigo-50 rounded-lg p-4 border-l-4 border-indigo-600">
+                  <blockquote className="text-sm italic text-text-body">
+                    "Finally, attribution that actually helps us make better
+                    decisions. ROAS improved 40% in the first month."
+                  </blockquote>
+                  <div className="text-xs text-text-muted mt-2 font-medium">
+                    — Sarah Chen, CMO at Snowflake
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-gradient-to-b from-cosmic-primary to-transparent rounded-full mt-2 animate-pulse" />
+        {/* Trust Indicators */}
+        <div className="mt-16 pt-12 border-t border-border">
+          <div className="text-center mb-8">
+            <p className="text-subtle">
+              Trusted by leading companies worldwide
+            </p>
+          </div>
+          <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
+            <div className="trust-badge">
+              <span className="font-semibold">Gartner Cool Vendor 2024</span>
+            </div>
+            <div className="trust-badge">
+              <span className="font-semibold">SOC 2 Type II</span>
+            </div>
+            <div className="trust-badge">
+              <span className="font-semibold">ISO 27001</span>
+            </div>
+            <div className="trust-badge">
+              <span className="font-semibold">GDPR Compliant</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
