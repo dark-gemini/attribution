@@ -211,17 +211,13 @@
     padding-right: var(--container-padding);
   }
 
-  /* Modern gradients */
+  /* Minimal gradients */
   .brand-gradient {
-    background: linear-gradient(
-      135deg,
-      rgb(var(--brand-primary)) 0%,
-      rgb(var(--brand-secondary)) 100%
-    );
+    background: rgb(var(--brand-primary));
   }
 
   .text-gradient {
-    @apply bg-gradient-to-r from-indigo-600 via-purple-600 to-blue-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent;
   }
 
   /* Animations */
