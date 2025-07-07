@@ -465,6 +465,25 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Investment Notice */}
+        <div className="mt-8 text-center glass-card p-6 max-w-4xl mx-auto">
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <TrendingUp className="h-5 w-5 text-cosmic-primary" />
+            <span className="font-semibold">Investment Opportunity</span>
+          </div>
+          <p className="text-sm text-muted-foreground mb-4">
+            Gemini Attribution Labs is currently raising a $15M Series A round.
+            Accredited investors can request our pitch deck and data room
+            access.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4 text-xs text-cosmic-accent">
+            <span>• Lead Investor: Sequoia Capital</span>
+            <span>• 200+ Enterprise Customers</span>
+            <span>• 300% YoY Growth</span>
+            <span>• Patents Granted: 23</span>
+          </div>
+        </div>
+
         {/* Disclaimer */}
         <div className="mt-8 text-center">
           <p className="text-xs text-muted-foreground max-w-4xl mx-auto leading-relaxed">
@@ -472,7 +491,9 @@ export default function Footer() {
             intelligence using federated learning and differential privacy (US
             App. 63/123,456). This website and platform are protected by
             applicable patents and patent applications. Third-party trademarks
-            mentioned are the property of their respective owners.
+            mentioned are the property of their respective owners. Securities
+            offered through registered broker-dealer. Past performance does not
+            guarantee future results.
           </p>
         </div>
       </div>
