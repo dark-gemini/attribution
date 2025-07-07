@@ -2,52 +2,94 @@ import { Linkedin, Twitter } from "lucide-react";
 
 const team = [
   {
-    name: "Hiroshi Tanaka",
+    name: "Rajesh Patel",
     role: "Co-Founder & CEO",
     image:
-      "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/riley-5ca88c?format=webp&width=800",
-    bio: "Serial entrepreneur with 3 exits totaling $2.1B. Former VP Engineering at TripleWhale. Built attribution systems serving 500M+ daily transactions.",
-    credentials: "MS Computer Science, Stanford • Forbes 30 Under 30",
+      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2Fa41f8018a6c04e629f1d0c123f6b209f?format=webp&width=800",
+    bio: "Serial entrepreneur with 3 exits totaling $2.1B. Former Chief Product Officer at Salesforce. Built attribution systems serving 500M+ daily transactions.",
+    credentials:
+      "MBA Harvard • MS Computer Science, IIT Delhi • Forbes 40 Under 40",
   },
   {
-    name: "Dr. Keanu Williams",
-    role: "Chief AI Officer",
-    image:
-      "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/brooke-3d0095?format=webp&width=800",
-    bio: "Former head of ML at Tesla Autopilot. PhD in Neural Networks from Stanford. 15+ patents in autonomous decision-making systems.",
-    credentials: "PhD AI/ML, Stanford • Published 40+ papers • Tesla AI Lead",
-  },
-  {
-    name: "Elena Volkov",
+    name: "Dr. Katherine Mitchell",
     role: "Chief Technology Officer",
     image:
-      "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/alex-13f266?format=webp&width=800",
-    bio: "Ex-Google Senior Staff Engineer. Architected systems processing 1B+ attribution events daily. Former Meta Reality Labs AI lead.",
-    credentials: "MS Software Engineering, MIT • 12 years at Google",
+      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2F167d57f8a5f044f1a617c9616833d325?format=webp&width=800",
+    bio: "Former VP Engineering at Microsoft Azure. Architected systems processing 1B+ attribution events daily. Led AI infrastructure at Meta.",
+    credentials:
+      "PhD Computer Science, Stanford • 15 years at Microsoft • ACM Fellow",
   },
   {
-    name: "Dr. Priya Sharma",
+    name: "Dr. Maria Kowalski",
+    role: "Chief AI Officer",
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2Fa3b0541ca27e429c8523cdb6f49635b3?format=webp&width=800",
+    bio: "Former head of ML at Tesla Autopilot. PhD in Neural Networks from MIT. 20+ patents in autonomous decision-making systems and federated learning.",
+    credentials:
+      "PhD AI/ML, MIT • Published 50+ papers • Tesla AI Lead • IEEE Fellow",
+  },
+  {
+    name: "Dr. Lisa Wang",
     role: "Chief Data Scientist",
     image:
-      "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/arya-ed2797?format=webp&width=800",
-    bio: "Pioneered multi-touch attribution models at Google Research. 20+ years in marketing analytics. Former Adobe Analytics VP.",
-    credentials: "PhD Statistics, UC Berkeley • 25+ research publications",
+      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2F6674428dd01a4d1dbd0d1c79b5d02e57?format=webp&width=800",
+    bio: "Pioneered multi-touch attribution models at Google Research. 18 years in marketing analytics. Former Principal Scientist at Amazon.",
+    credentials:
+      "PhD Statistics, UC Berkeley • 35+ research publications • Google Brain alum",
   },
   {
-    name: "Marcus Johnson",
-    role: "VP of Engineering",
-    image:
-      "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/taylor-f826af?format=webp&width=800",
-    bio: "Infrastructure expert who scaled Stripe's real-time analytics from 10M to 10B+ transactions. Former Principal Engineer at Databricks.",
-    credentials: "MS Distributed Systems, CMU • Kubernetes core contributor",
-  },
-  {
-    name: "Dr. Sarah Chen",
+    name: "Dr. Jennifer Park",
     role: "Chief Privacy Officer",
     image:
-      "https://cdn.builder.io/api/v1/assets/b1aa49940f8f410f8f3eba0e2e37fcb3/amy-31dad6?format=webp&width=800",
+      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2F17677002e5a343888b699443a1c4442a?format=webp&width=800",
     bio: "Privacy researcher from MIT CSAIL. Expert in differential privacy and homomorphic encryption. Former Apple Privacy Engineering lead.",
-    credentials: "PhD Cryptography, MIT • IAPP Fellow • 8 privacy patents",
+    credentials:
+      "PhD Cryptography, MIT • IAPP Fellow • 12 privacy patents • NIST contributor",
+  },
+  {
+    name: "Michael Thompson",
+    role: "VP of Engineering",
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2Fe9e1278368464129899faf3f28f27ad3?format=webp&width=800",
+    bio: "Infrastructure expert who scaled Stripe's real-time analytics from 10M to 10B+ transactions. Former Principal Engineer at Databricks.",
+    credentials:
+      "MS Distributed Systems, CMU • Kubernetes core contributor • Linux Foundation member",
+  },
+  {
+    name: "Carlos Rodriguez",
+    role: "VP of Product",
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2Fdc016ad58d894a3cb713a15622d965e8?format=webp&width=800",
+    bio: "Former Principal PM at Snowflake. Led product strategy for enterprise analytics platforms. 12 years building B2B SaaS products.",
+    credentials:
+      "MBA Wharton • BS Engineering, UC San Diego • Product Leader of the Year",
+  },
+  {
+    name: "David Kim",
+    role: "VP of Sales",
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2F1798d85d5eaf4df4af4b5140ceaab9e1?format=webp&width=800",
+    bio: "Former SVP Sales at HubSpot. Built enterprise sales teams from $0 to $500M ARR. Expert in SaaS go-to-market strategy.",
+    credentials:
+      "MBA Northwestern Kellogg • 15 years enterprise sales • President's Club winner",
+  },
+  {
+    name: "Dr. Anita Gupta",
+    role: "Chief Revenue Officer",
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2F15f9e4422c484b1ab55cd6b312747279?format=webp&width=800",
+    bio: "Former Chief Revenue Officer at Tableau. Led global revenue operations and scaled from $100M to $1B ARR. McKinsey alum.",
+    credentials:
+      "MBA Stanford • MS Operations Research, MIT • CRO of the Year 2023",
+  },
+  {
+    name: "Marcus Williams",
+    role: "Chief Operating Officer",
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2Fb1aa49940f8f410f8f3eba0e2e37fcb3%2Fcc1b3124c1e3483797f0956b29c0e271?format=webp&width=800",
+    bio: "Former VP Operations at Palantir. Expert in scaling enterprise software companies. Led IPO process and post-public company operations.",
+    credentials:
+      "MBA Harvard • BS Industrial Engineering, Georgia Tech • Former Goldman Sachs",
   },
 ];
 
