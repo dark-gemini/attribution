@@ -149,7 +149,7 @@ export default function Hero() {
                 </div>
 
                 {/* Customer Quote */}
-                <div className="bg-indigo-50 rounded-lg p-4 border-l-4 border-indigo-600">
+                <div className="bg-slate-50 rounded-lg p-4 border-l-4 border-slate-900">
                   <blockquote className="text-sm italic text-text-body">
                     "Finally, attribution that actually helps us make better
                     decisions. ROAS improved 40% in the first month."
