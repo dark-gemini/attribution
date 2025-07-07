@@ -38,7 +38,7 @@ const companies = [
 
 export default function CustomerProof() {
   return (
-    <section className="section-padding bg-background-muted" id="customers">
+    <section className="section-padding bg-slate-50" id="customers">
       <div className="container mx-auto container-padding">
         {/* Header */}
         <div className="text-center mb-16">
