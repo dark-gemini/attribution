@@ -12,6 +12,7 @@ import {
   Building,
   Phone,
   Clock,
+  TrendingUp,
 } from "lucide-react";
 
 export default function Footer() {
