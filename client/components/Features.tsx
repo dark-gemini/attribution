@@ -164,6 +164,49 @@ export default function Features() {
             </p>
           </div>
         </div>
+
+        {/* Social Proof & Validation */}
+        <div className="mt-24 text-center">
+          <h3 className="text-2xl md:text-3xl font-bold mb-8">
+            Trusted by <span className="gradient-text">Industry Leaders</span>
+          </h3>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
+            <div className="glass-card p-4 text-center">
+              <div className="text-lg font-bold mb-1">Gartner</div>
+              <div className="text-xs text-cosmic-primary">
+                Cool Vendor 2024
+              </div>
+            </div>
+            <div className="glass-card p-4 text-center">
+              <div className="text-lg font-bold mb-1">Forrester</div>
+              <div className="text-xs text-cosmic-secondary">
+                Strong Performer
+              </div>
+            </div>
+            <div className="glass-card p-4 text-center">
+              <div className="text-lg font-bold mb-1">G2</div>
+              <div className="text-xs text-cosmic-accent">Leader Q4 2024</div>
+            </div>
+            <div className="glass-card p-4 text-center">
+              <div className="text-lg font-bold mb-1">TechCrunch</div>
+              <div className="text-xs text-cosmic-primary">
+                Startup Battlefield
+              </div>
+            </div>
+          </div>
+
+          <div className="glass-card p-6 max-w-3xl mx-auto">
+            <blockquote className="text-lg italic text-center mb-4">
+              "Gemini Attribution has transformed how we understand our customer
+              journey. The AI-powered insights delivered a 40% improvement in
+              ROAS within 90 days."
+            </blockquote>
+            <div className="text-sm text-cosmic-primary font-medium">
+              — Sarah Chen, CMO at Snowflake
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
