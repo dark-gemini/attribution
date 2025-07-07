@@ -8,6 +8,15 @@
    * Modern dark theme with cosmic accents and professional gradients
    */
   :root {
+    /* Custom attribution platform colors */
+    --cosmic-primary: 260 84% 65%;
+    --cosmic-secondary: 280 100% 70%;
+    --cosmic-accent: 200 100% 70%;
+    --neural-glow: 260 84% 65%;
+    --glass-bg: 222 84% 4.9%;
+    --glass-border: 215 27.9% 16.9%;
+
+    /* Dark theme as default */
     --background: 222 84% 4.9%;
     --foreground: 210 40% 98%;
 
@@ -37,14 +46,6 @@
     --ring: 260 84% 65%;
 
     --radius: 0.75rem;
-
-    /* Custom attribution platform colors */
-    --cosmic-primary: 260 84% 65%;
-    --cosmic-secondary: 280 100% 70%;
-    --cosmic-accent: 200 100% 70%;
-    --neural-glow: 260 84% 65%;
-    --glass-bg: 222 84% 4.9%;
-    --glass-border: 215 27.9% 16.9%;
   }
 
   .light {
