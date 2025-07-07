@@ -164,7 +164,7 @@ export default function CustomerProof() {
 
         {/* CTA */}
         <div className="text-center mt-16">
-          <div className="professional-card-elevated p-8 max-w-2xl mx-auto bg-gradient-to-br from-indigo-50 to-blue-50">
+          <div className="professional-card-elevated p-8 max-w-2xl mx-auto bg-white">
             <h3 className="heading-md mb-4">
               Ready to Join These Success Stories?
             </h3>
