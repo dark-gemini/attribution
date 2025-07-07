@@ -10,10 +10,9 @@ import {
 
 export default function Hero() {
   return (
-    <section className="relative bg-background section-padding overflow-hidden">
-      {/* Background Elements */}
-      <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-blue-50 opacity-60" />
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-indigo-100/20 to-transparent" />
+    <section className="relative bg-white section-padding overflow-hidden">
+      {/* Subtle background pattern */}
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-50/50 to-white" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto container-padding">
