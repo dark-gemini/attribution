@@ -1,5 +1,6 @@
 import Navigation from "../components/Navigation";
 import Hero from "../components/Hero";
+import CustomerProof from "../components/CustomerProof";
 import Features from "../components/Features";
 import TeamSection from "../components/TeamSection";
 import TechShowcase from "../components/TechShowcase";
@@ -9,9 +10,10 @@ import Footer from "../components/Footer";
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen">
       <Navigation />
       <Hero />
+      <CustomerProof />
       <Features />
       <TechShowcase />
       <TeamSection />
