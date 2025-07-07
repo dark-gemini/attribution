@@ -402,7 +402,7 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <div className="text-sm text-muted-foreground">
             <div>
-              © 2024 Gemini Attribution Labs, Inc. All rights reserved.
+              © 2025 Gemini Attribution Labs, Inc. All rights reserved.
             </div>
             <div className="mt-1">
               Registered in Delaware, USA. Licensed in CA, NY, UK, SG.
