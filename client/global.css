@@ -11,10 +11,10 @@
    */
   :root {
     /* Professional color palette */
-    --brand-primary: 99 102 241;
-    --brand-secondary: 16 185 129;
-    --brand-accent: 245 158 11;
-    --brand-neutral: 71 85 105;
+    --brand-primary: 15 23 42;
+    --brand-secondary: 71 85 105;
+    --brand-accent: 99 102 241;
+    --brand-neutral: 148 163 184;
 
     /* Modern backgrounds */
     --background: 255 255 255;
