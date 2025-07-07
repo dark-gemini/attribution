@@ -91,7 +91,7 @@ export default function Hero() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 max-w-3xl mx-auto">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold gradient-text">
-                20-40%
+                20-40%*
               </div>
               <div className="text-sm text-muted-foreground mt-1">
                 ROAS Increase
@@ -99,15 +99,15 @@ export default function Hero() {
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold gradient-text">
-                50%
+                &lt;100ms
               </div>
               <div className="text-sm text-muted-foreground mt-1">
-                Faster Insights
+                Processing Time
               </div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold gradient-text">
-                15-30%
+                15-30%*
               </div>
               <div className="text-sm text-muted-foreground mt-1">
                 CAC Reduction
@@ -115,12 +115,21 @@ export default function Hero() {
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold gradient-text">
-                Real-time
+                99.97%
               </div>
               <div className="text-sm text-muted-foreground mt-1">
-                Optimization
+                Uptime SLA
               </div>
             </div>
+          </div>
+
+          {/* Legal disclaimer */}
+          <div className="pt-8 text-center">
+            <p className="text-xs text-muted-foreground max-w-2xl mx-auto">
+              *Results based on controlled studies with enterprise clients Q3-Q4
+              2024. Individual results may vary. Patent pending attribution
+              algorithms.
+            </p>
           </div>
         </div>
       </div>
