@@ -103,17 +103,17 @@ export default function TechShowcase() {
           {techStack.map((category, index) => (
             <div
               key={index}
-              className="glass-card p-8 group hover:scale-105 transition-all duration-300 animate-slide-in"
+              className="feature-card slide-up"
               style={{ animationDelay: `${index * 150}ms` }}
             >
               {/* Category Header */}
               <div className="flex items-center gap-4 mb-6">
                 <div
-                  className={`p-3 rounded-xl bg-gradient-to-r ${category.color} w-fit`}
+                  className={`p-3 rounded-xl bg-gradient-to-r ${category.color} shadow-sm w-fit`}
                 >
                   <category.icon className="h-6 w-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold group-hover:gradient-text transition-all duration-300">
+                <h3 className="heading-md group-hover:text-indigo-600 transition-colors duration-300">
                   {category.category}
                 </h3>
               </div>
