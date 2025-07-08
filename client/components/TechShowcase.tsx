@@ -123,17 +123,19 @@ export default function TechShowcase() {
                 {category.technologies.map((tech, techIndex) => (
                   <div
                     key={techIndex}
-                    className="flex items-center gap-3 p-3 rounded-lg hover:bg-white/5 transition-colors"
+                    className="flex items-center gap-3 p-3 rounded-lg hover:bg-background-accent transition-colors"
                   >
-                    <div className="w-2 h-2 rounded-full bg-cosmic-primary" />
-                    <span className="text-sm font-medium">{tech}</span>
+                    <div className="w-2 h-2 rounded-full bg-indigo-500" />
+                    <span className="text-sm font-medium text-text-body">
+                      {tech}
+                    </span>
                   </div>
                 ))}
               </div>
 
               {/* Hover effect */}
               <div className="mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-cosmic-primary to-transparent" />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-indigo-500 to-transparent" />
               </div>
             </div>
           ))}
