@@ -230,31 +230,37 @@ export default function TechShowcase() {
 
         {/* API & Integration */}
         <div className="text-center">
-          <h3 className="text-2xl font-bold mb-6">
-            Developer-First <span className="gradient-text">Integration</span>
+          <h3 className="heading-md mb-6">
+            Developer-First <span className="text-gradient">Integration</span>
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <div className="glass-card p-6">
-              <Code className="h-8 w-8 mx-auto text-cosmic-primary mb-4" />
-              <div className="font-semibold mb-2">RESTful APIs</div>
-              <div className="text-sm text-muted-foreground">
+            <div className="professional-card p-6">
+              <Code className="h-8 w-8 mx-auto text-indigo-600 mb-4" />
+              <div className="font-semibold text-text-heading mb-2">
+                RESTful APIs
+              </div>
+              <div className="text-sm text-text-muted">
                 Complete programmatic access to all platform features
               </div>
             </div>
 
-            <div className="glass-card p-6">
-              <Database className="h-8 w-8 mx-auto text-cosmic-secondary mb-4" />
-              <div className="font-semibold mb-2">SDK Libraries</div>
-              <div className="text-sm text-muted-foreground">
+            <div className="professional-card p-6">
+              <Database className="h-8 w-8 mx-auto text-purple-600 mb-4" />
+              <div className="font-semibold text-text-heading mb-2">
+                SDK Libraries
+              </div>
+              <div className="text-sm text-text-muted">
                 Python, JavaScript, and R libraries for data scientists
               </div>
             </div>
 
-            <div className="glass-card p-6">
-              <Zap className="h-8 w-8 mx-auto text-cosmic-accent mb-4" />
-              <div className="font-semibold mb-2">Real-time Webhooks</div>
-              <div className="text-sm text-muted-foreground">
+            <div className="professional-card p-6">
+              <Zap className="h-8 w-8 mx-auto text-green-600 mb-4" />
+              <div className="font-semibold text-text-heading mb-2">
+                Real-time Webhooks
+              </div>
+              <div className="text-sm text-text-muted">
                 Instant notifications for attribution insights
               </div>
             </div>
