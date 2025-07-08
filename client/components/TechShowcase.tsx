@@ -103,7 +103,7 @@ export default function TechShowcase() {
           {techStack.map((category, index) => (
             <div
               key={index}
-              className="feature-card slide-up"
+              className="feature-card group slide-up"
               style={{ animationDelay: `${index * 150}ms` }}
             >
               {/* Category Header */}
