@@ -311,7 +311,7 @@
   }
 
   .feature-card {
-    @apply professional-card p-6 group transition-all duration-300 hover:shadow-lg hover:border-indigo-200;
+    @apply professional-card p-6 transition-all duration-300 hover:shadow-lg hover:border-indigo-200;
   }
 
   /* Status indicators */
