@@ -143,8 +143,8 @@ export default function TechShowcase() {
 
         {/* Performance Metrics */}
         <div className="text-center mb-12">
-          <h3 className="text-3xl md:text-4xl font-bold mb-8">
-            Platform <span className="gradient-text">Performance</span>
+          <h3 className="heading-md mb-8">
+            Platform <span className="text-gradient">Performance</span>
           </h3>
         </div>
 
@@ -152,24 +152,24 @@ export default function TechShowcase() {
           {metrics.map((metric, index) => (
             <div
               key={index}
-              className="glass-card p-6 text-center group hover:scale-105 transition-all duration-300 animate-slide-in"
+              className="metric-card slide-up"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="flex justify-center mb-4">
-                <div className="p-3 rounded-xl bg-gradient-to-r from-cosmic-primary to-cosmic-secondary w-fit">
+                <div className="p-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-500 shadow-sm w-fit">
                   <metric.icon className="h-6 w-6 text-white" />
                 </div>
               </div>
 
-              <div className="text-3xl font-bold gradient-text mb-2">
+              <div className="metric-number text-indigo-600">
                 {metric.value}
               </div>
 
-              <div className="font-semibold mb-2">{metric.label}</div>
-
-              <div className="text-sm text-muted-foreground">
-                {metric.description}
+              <div className="font-semibold text-text-heading mb-2">
+                {metric.label}
               </div>
+
+              <div className="metric-label">{metric.description}</div>
             </div>
           ))}
         </div>
