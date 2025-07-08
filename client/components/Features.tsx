@@ -80,31 +80,30 @@ export default function Features() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="glass-card p-8 group hover:scale-105 transition-all duration-300 animate-slide-in"
+              className="professional-card p-8 group hover:scale-[1.02] transition-all duration-300 slide-up"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {/* Icon */}
-              <div className="relative mb-6">
+              <div className="mb-6">
                 <div
-                  className={`p-4 rounded-2xl bg-gradient-to-r ${feature.gradient} w-fit`}
+                  className={`p-4 rounded-xl bg-gradient-to-r ${feature.gradient} w-fit shadow-sm`}
                 >
-                  <feature.icon className="h-8 w-8 text-white" />
+                  <feature.icon className="h-6 w-6 text-white" />
                 </div>
-                <div className="absolute -inset-2 bg-gradient-to-r from-transparent via-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl" />
               </div>
 
               {/* Content */}
-              <h3 className="text-xl font-bold mb-4 group-hover:gradient-text transition-all duration-300">
+              <h3 className="heading-md mb-4 group-hover:text-indigo-600 transition-colors duration-300">
                 {feature.title}
               </h3>
 
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-text-muted leading-relaxed">
                 {feature.description}
               </p>
 
               {/* Hover effect */}
               <div className="mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-cosmic-primary to-transparent" />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-indigo-500 to-transparent" />
               </div>
             </div>
           ))}
