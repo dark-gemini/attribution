@@ -199,42 +199,50 @@ export default function Features() {
 
         {/* Social Proof & Validation */}
         <div className="mt-24 text-center">
-          <h3 className="text-2xl md:text-3xl font-bold mb-8">
-            Trusted by <span className="gradient-text">Industry Leaders</span>
+          <h3 className="heading-md mb-8">
+            Trusted by <span className="text-gradient">Industry Leaders</span>
           </h3>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
-            <div className="glass-card p-4 text-center">
-              <div className="text-lg font-bold mb-1">Gartner</div>
-              <div className="text-xs text-cosmic-primary">
+            <div className="metric-card">
+              <div className="text-lg font-bold text-text-heading mb-1">
+                Gartner
+              </div>
+              <div className="text-xs text-indigo-600 font-medium">
                 Cool Vendor 2024
               </div>
             </div>
-            <div className="glass-card p-4 text-center">
-              <div className="text-lg font-bold mb-1">Forrester</div>
-              <div className="text-xs text-cosmic-secondary">
+            <div className="metric-card">
+              <div className="text-lg font-bold text-text-heading mb-1">
+                Forrester
+              </div>
+              <div className="text-xs text-purple-600 font-medium">
                 Strong Performer
               </div>
             </div>
-            <div className="glass-card p-4 text-center">
-              <div className="text-lg font-bold mb-1">G2</div>
-              <div className="text-xs text-cosmic-accent">Leader Q4 2024</div>
+            <div className="metric-card">
+              <div className="text-lg font-bold text-text-heading mb-1">G2</div>
+              <div className="text-xs text-green-600 font-medium">
+                Leader Q4 2024
+              </div>
             </div>
-            <div className="glass-card p-4 text-center">
-              <div className="text-lg font-bold mb-1">TechCrunch</div>
-              <div className="text-xs text-cosmic-primary">
+            <div className="metric-card">
+              <div className="text-lg font-bold text-text-heading mb-1">
+                TechCrunch
+              </div>
+              <div className="text-xs text-blue-600 font-medium">
                 Startup Battlefield
               </div>
             </div>
           </div>
 
-          <div className="glass-card p-6 max-w-3xl mx-auto">
-            <blockquote className="text-lg italic text-center mb-4">
+          <div className="professional-card p-8 max-w-3xl mx-auto">
+            <blockquote className="body-lg italic text-center mb-4 text-text-body">
               "Gemini Attribution has transformed how we understand our customer
               journey. The AI-powered insights delivered a 40% improvement in
               ROAS within 90 days."
             </blockquote>
-            <div className="text-sm text-cosmic-primary font-medium">
+            <div className="text-sm text-indigo-600 font-medium">
               — Sarah Chen, CMO at Snowflake
             </div>
           </div>
