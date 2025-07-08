@@ -175,38 +175,44 @@ export default function TechShowcase() {
         </div>
 
         {/* Architecture Diagram */}
-        <div className="glass-card p-8 mb-12">
-          <h3 className="text-2xl font-bold text-center mb-8">
-            <span className="gradient-text">Unified Intelligence</span>{" "}
+        <div className="professional-card p-8 mb-12">
+          <h3 className="heading-md text-center mb-8">
+            <span className="text-gradient">Unified Intelligence</span>{" "}
             Architecture
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div className="space-y-4">
-              <div className="p-4 rounded-xl bg-gradient-to-r from-blue-500/20 to-cyan-500/20">
-                <Database className="h-8 w-8 mx-auto text-cyan-400 mb-2" />
-                <div className="font-semibold">Data Ingestion</div>
-                <div className="text-sm text-muted-foreground">
+              <div className="p-6 rounded-xl bg-gradient-to-br from-blue-50 to-cyan-50 border border-blue-200">
+                <Database className="h-8 w-8 mx-auto text-blue-600 mb-3" />
+                <div className="font-semibold text-text-heading">
+                  Data Ingestion
+                </div>
+                <div className="text-sm text-text-muted">
                   Real-time collection from all sources
                 </div>
               </div>
             </div>
 
             <div className="space-y-4">
-              <div className="p-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20">
-                <Brain className="h-8 w-8 mx-auto text-pink-400 mb-2" />
-                <div className="font-semibold">AI Processing</div>
-                <div className="text-sm text-muted-foreground">
+              <div className="p-6 rounded-xl bg-gradient-to-br from-purple-50 to-pink-50 border border-purple-200">
+                <Brain className="h-8 w-8 mx-auto text-purple-600 mb-3" />
+                <div className="font-semibold text-text-heading">
+                  AI Processing
+                </div>
+                <div className="text-sm text-text-muted">
                   Machine learning analysis & prediction
                 </div>
               </div>
             </div>
 
             <div className="space-y-4">
-              <div className="p-4 rounded-xl bg-gradient-to-r from-green-500/20 to-emerald-500/20">
-                <Zap className="h-8 w-8 mx-auto text-emerald-400 mb-2" />
-                <div className="font-semibold">Autonomous Action</div>
-                <div className="text-sm text-muted-foreground">
+              <div className="p-6 rounded-xl bg-gradient-to-br from-green-50 to-emerald-50 border border-green-200">
+                <Zap className="h-8 w-8 mx-auto text-green-600 mb-3" />
+                <div className="font-semibold text-text-heading">
+                  Autonomous Action
+                </div>
+                <div className="text-sm text-text-muted">
                   Real-time optimization & execution
                 </div>
               </div>
@@ -215,9 +221,9 @@ export default function TechShowcase() {
 
           <div className="flex justify-center mt-8">
             <div className="flex items-center gap-4">
-              <div className="w-16 h-px bg-gradient-to-r from-cyan-400 to-purple-400" />
-              <Zap className="h-4 w-4 text-cosmic-primary" />
-              <div className="w-16 h-px bg-gradient-to-r from-purple-400 to-emerald-400" />
+              <div className="w-16 h-px bg-gradient-to-r from-blue-400 to-purple-400" />
+              <Zap className="h-4 w-4 text-indigo-600" />
+              <div className="w-16 h-px bg-gradient-to-r from-purple-400 to-green-400" />
             </div>
           </div>
         </div>
