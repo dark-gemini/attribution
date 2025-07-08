@@ -292,9 +292,9 @@
     @apply inline-flex items-center gap-2 px-3 py-1 bg-background-accent text-text-muted text-sm rounded-full border border-border;
   }
 
-  /* Metrics display */
+  /* Enhanced metrics display */
   .metric-card {
-    @apply professional-card p-6 text-center hover:border-primary/20 transition-all duration-300;
+    @apply professional-card p-6 text-center hover:border-indigo-200 hover:shadow-md transition-all duration-300 cursor-default;
   }
 
   .metric-number {
@@ -303,6 +303,42 @@
 
   .metric-label {
     @apply text-text-muted font-medium text-sm;
+  }
+
+  /* Interactive elements */
+  .interactive-card {
+    @apply professional-card transition-all duration-300 hover:shadow-lg hover:scale-[1.02] cursor-pointer;
+  }
+
+  .feature-card {
+    @apply professional-card p-6 group transition-all duration-300 hover:shadow-lg hover:border-indigo-200;
+  }
+
+  /* Status indicators */
+  .status-dot {
+    @apply w-2 h-2 rounded-full;
+  }
+
+  .status-active {
+    @apply bg-green-500;
+  }
+
+  .status-pending {
+    @apply bg-amber-500;
+  }
+
+  .status-inactive {
+    @apply bg-slate-400;
+  }
+
+  /* Loading states */
+  .skeleton {
+    @apply bg-background-muted animate-pulse rounded;
+  }
+
+  /* Enhanced focus states */
+  .enhanced-focus {
+    @apply focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-white transition-all duration-200;
   }
 }
 
