@@ -111,50 +111,86 @@ export default function Features() {
 
         {/* Comparison section */}
         <div className="mt-24 text-center">
-          <h3 className="text-3xl md:text-4xl font-bold mb-8">
-            Beyond <span className="gradient-text">Traditional Solutions</span>
+          <h3 className="heading-md mb-8">
+            Beyond <span className="text-gradient">Traditional Solutions</span>
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div className="glass-card p-6 text-center">
-              <div className="text-2xl font-bold text-red-400 mb-2">
+            <div className="professional-card p-6 text-center">
+              <div className="text-xl font-bold text-red-500 mb-4">
                 Traditional Attribution
               </div>
-              <div className="text-sm text-muted-foreground space-y-2">
-                <div>• First/Last-click models</div>
-                <div>• Historical reporting only</div>
-                <div>• Limited data sources</div>
-                <div>• Manual optimization</div>
+              <div className="text-sm text-text-muted space-y-3">
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="w-2 h-2 bg-red-400 rounded-full" />
+                  <span>First/Last-click models</span>
+                </div>
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="w-2 h-2 bg-red-400 rounded-full" />
+                  <span>Historical reporting only</span>
+                </div>
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="w-2 h-2 bg-red-400 rounded-full" />
+                  <span>Limited data sources</span>
+                </div>
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="w-2 h-2 bg-red-400 rounded-full" />
+                  <span>Manual optimization</span>
+                </div>
               </div>
             </div>
 
-            <div className="glass-card p-6 text-center">
-              <div className="text-2xl font-bold text-yellow-400 mb-2">
+            <div className="professional-card p-6 text-center">
+              <div className="text-xl font-bold text-amber-500 mb-4">
                 Market Leaders*
               </div>
-              <div className="text-sm text-muted-foreground space-y-2">
-                <div>• Multi-touch attribution</div>
-                <div>• Basic predictive analytics</div>
-                <div>• Platform integrations</div>
-                <div>• Rule-based automation</div>
+              <div className="text-sm text-text-muted space-y-3">
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="w-2 h-2 bg-amber-400 rounded-full" />
+                  <span>Multi-touch attribution</span>
+                </div>
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="w-2 h-2 bg-amber-400 rounded-full" />
+                  <span>Basic predictive analytics</span>
+                </div>
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="w-2 h-2 bg-amber-400 rounded-full" />
+                  <span>Platform integrations</span>
+                </div>
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="w-2 h-2 bg-amber-400 rounded-full" />
+                  <span>Rule-based automation</span>
+                </div>
               </div>
             </div>
 
-            <div className="glass-card p-6 text-center border-2 border-cosmic-primary/50">
-              <div className="text-2xl font-bold gradient-text mb-2">
+            <div className="professional-card p-6 text-center border-2 border-indigo-200 bg-gradient-to-br from-indigo-50 to-white">
+              <div className="text-xl font-bold text-gradient mb-4">
                 Gemini Attribution
               </div>
-              <div className="text-sm text-foreground space-y-2">
-                <div>• Unified data architecture</div>
-                <div>• Patent-pending AI models</div>
-                <div>• Sub-100ms processing</div>
-                <div>• Autonomous optimization</div>
+              <div className="text-sm text-text-body space-y-3">
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="w-2 h-2 bg-indigo-500 rounded-full" />
+                  <span>Unified data architecture</span>
+                </div>
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="w-2 h-2 bg-indigo-500 rounded-full" />
+                  <span>Patent-pending AI models</span>
+                </div>
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="w-2 h-2 bg-indigo-500 rounded-full" />
+                  <span>Sub-100ms processing</span>
+                </div>
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="w-2 h-2 bg-indigo-500 rounded-full" />
+                  <span>Autonomous optimization</span>
+                </div>
               </div>
             </div>
           </div>
 
           <div className="mt-8 text-center">
-            <p className="text-xs text-muted-foreground">
+            <p className="text-xs text-text-subtle">
               *Competitive analysis as of Q4 2024. Features and capabilities
               subject to change.
             </p>
